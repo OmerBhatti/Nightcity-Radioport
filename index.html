@@ -157,6 +157,7 @@ function updateTrackControls() {
   $('next-track').disabled = !queue.length;
   $('play-pause').disabled = !queue.length;
   $('track-number').textContent = `${queue.length ? trackIndex + 1 : 0} / ${queue.length}`;
+  $('track-number').title = `${queue.length} resolved / ${active?.tracks.length || 0} listed songs`;
 }
 function setPlaybackState(paused) {
   $('play-pause-icon').setAttribute('d', paused ? 'm8 5 11 7-11 7z' : 'M8 5v14M16 5v14');
@@ -263,7 +264,7 @@ function initialStationIndex() {
   } catch {
     // Storage may be disabled or contain invalid data; use the normal default.
   }
-  const growl = stations.findIndex(station => station.station_name === 'GROWL FM');
+  const growl = stations.findIndex(station => station.station_name.toUpperCase() === 'GROWL FM');
   if (growl >= 0 && stations[growl].tracks.some(track => validUri(track.uri))) return growl;
   const playable = stations.findIndex(station => station.tracks.some(track => validUri(track.uri)));
   return playable >= 0 ? playable : Math.max(0, growl);
@@ -339,7 +340,7 @@ document.addEventListener('keydown', event => {
 });
 (async () => {
   try {
-    const response = await fetch('./stations.json');
+    const response = await fetch('./tracks.catalog.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const records = await response.json();
     if (!Array.isArray(records) || !records.every(item => item && typeof item.station_name === 'string' && typeof item.track_title === 'string' && typeof item.artist === 'string')) throw new Error('Invalid station data');
@@ -353,7 +354,7 @@ document.addEventListener('keydown', event => {
     render();
     selectStation();
     $('stations').querySelector('.selected')?.scrollIntoView({block:'nearest'});
-  } catch (error) { status(`STATION DATA UNAVAILABLE · Serve this folder over HTTP and check stations.json. ${error.message}`); }
+  } catch (error) { status(`STATION DATA UNAVAILABLE · Serve this folder over HTTP and check tracks.catalog.json. ${error.message}`); }
 })();
 </script>
 <script src="https://open.spotify.com/embed/iframe-api/v1" async onerror="setLoading(false); document.getElementById('status').textContent='Spotify unavailable. Check your connection or content blocker.'"></script>
