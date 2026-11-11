@@ -2,6 +2,9 @@
 
 A Cyberpunk-inspired radio HUD with Spotify playback. Built with one HTML file containing all interface CSS and JavaScript, plus a generated station catalog. No frontend build or npm installation is required. Orbitron loads from Google Fonts.
 
+<img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/35254b96-982c-417c-aad3-b5524141699b" />
+
+
 ## Run locally
 
 ```sh
