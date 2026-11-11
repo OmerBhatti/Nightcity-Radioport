@@ -1,0 +1,25 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local editors and OS files
+.DS_Store
+Thumbs.db
+.idea/
+
+# Temporary output
+*.log
+*.tmp

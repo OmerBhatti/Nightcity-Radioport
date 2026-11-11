@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radioport · Night City</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--red:#ff555b;--dim:#6f3032;--cyan:#83efff;--muted:#5b9ca6}*{box-sizing:border-box;-webkit-user-select:none;user-select:none}body{margin:0;background:#080807;color:var(--cyan);font-family:'Orbitron',sans-serif;font-stretch:condensed;overflow:hidden}button{font:inherit;color:inherit;cursor:pointer} .world{position:fixed;inset:-25px;filter:blur(7px);transform:scale(1.05);background:linear-gradient(180deg,#240e0b99,#05070750),radial-gradient(ellipse at 56% 70%,#233735,transparent 37%),linear-gradient(90deg,#15120c 8%,#352b20 9%,#100d0a 12%,#201c13 32%,#080e0e 34%,#292d26 62%,#070c0d 65%,#181d19 90%)}.world:before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 10%,#090b09bb 10.5% 13%,transparent 13.5% 22%),linear-gradient(0deg,#000 1%,transparent 40%);border-top:30px solid #484136}.sign{position:absolute;background:#8b7c49;box-shadow:0 0 20px #665a2c;width:16%;height:3%;left:14%;top:28%;opacity:.5}.sign:after{content:'';position:absolute;left:170%;top:125px;width:18px;height:100px;background:#517f82;box-shadow:190px 5px 0 #66888a,390px -30px 0 #2e6a72,-260px 70px 0 #6a7770}.architecture{position:absolute;left:36%;top:5%;height:59%;width:9%;border-left:12px solid #575043;border-right:15px solid #372c20;box-shadow:75px 0 0 #27241b,380px 0 0 #22281f;opacity:.45}.road{position:absolute;bottom:-20%;left:15%;width:85%;height:45%;background:repeating-linear-gradient(0deg,#29403933 0 2px,transparent 2px 24px);transform:perspective(150px) rotateX(35deg)}.veil{position:fixed;inset:0;background:linear-gradient(#39070480,#16040055 55%,#0009),radial-gradient(ellipse,transparent 15%,#0008 95%);pointer-events:none}.scanlines{position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent 0 3px,#00000012 3px 4px);pointer-events:none;z-index:5}.hud{position:absolute;left:50%;top:15%;transform:translateX(-50%);width:clamp(290px,30.6vw,560px);font-size:clamp(11px,1.16vw,21px);text-shadow:0 0 5px #65e6ff33}.eyebrow{font-size:.38em;color:var(--dim);position:absolute;top:-1.5em}.frame{height:1.75em;border:1px solid #693137;border-left:5px solid #bf5256;border-radius:0 0 .5em 0;padding:.12em .65em;background:#111a2280;position:relative}.frame:before{content:'';position:absolute;left:2px;top:0;height:100%;border-left:1px solid #ff6464}.now{display:grid;grid-template-columns:38% 1fr;gap:3.4%;margin-top:1.1em;height:9.15em}.badge{position:relative;border:1px solid #743638;border-radius:0 0 .5em 0;background:radial-gradient(ellipse at center,#06313c88,transparent 68%);display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}.badge:before{content:'';position:absolute;inset:3px;border-left:2px solid #803238}.badge svg{height:55%;width:75%;filter:drop-shadow(0 0 6px #39dfff88)}.badge strong{font-size:1.8em;line-height:.8;letter-spacing:.06em;-webkit-text-stroke:.5px var(--cyan);color:#07323b}.badge span{font-size:.74em;font-weight:bold;letter-spacing:.05em}.badge small{position:absolute;bottom:.65em;left:.8em;font-size:.23em;color:#a14a4b;line-height:1.4}.metadata{min-width:0;border-top:1px solid #633031;border-bottom:1px solid #633031;position:relative;display:flex;flex-direction:column;padding-top:1em}.label{position:absolute;top:-1.7em;font-size:.4em;color:#914044}.song{overflow-wrap:anywhere;font-size:.85em;line-height:1.4;color:var(--red);margin:0;text-transform:uppercase;font-weight:400}.track-row{display:flex;align-items:center;justify-content:space-between;margin-top:auto;margin-bottom:.65em;font-size:.85em;color:var(--red)}kbd{font:inherit;color:var(--cyan);border:1px solid var(--muted);border-radius:2px;padding:0 .22em;line-height:1.15;display:inline-block;box-shadow:0 0 3px #64dfee20}.stations{margin-top:.8em;height:18.2em;overflow-y:auto;padding-right:1.5em;scrollbar-width:thin;scrollbar-color:var(--red) transparent;outline:none}.station{font-size:.8em;width:100%;height:2.25em;border:1px solid transparent;background:transparent;text-align:left;display:flex;gap:.45em;align-items:center;padding:0 .4em;color:var(--muted);white-space:nowrap;clip-path:polygon(0 0,100% 0,100% 76%,98% 100%,0 100%)}.station:hover{background:#54d8f011}.station.selected{background:#69dff52b;border-color:#70dcf5;color:#a0f5ff;text-shadow:0 0 6px #64dfff77}.station:focus-visible{outline:2px solid var(--cyan);outline-offset:-3px}.signal{font-size:.75em;width:1em;color:#70aab2}.selected .signal{color:var(--cyan)}.footer{border-top:1px solid #743c36;margin-top:1em;padding-top:.6em;display:flex;justify-content:space-between;align-items:flex-start}.micro{font-size:.24em;color:#84392f;line-height:1.7;letter-spacing:.1em}.actions{display:flex;gap:.8em;font-size:.7em;color:var(--red)}.actions button{background:none;border:0;padding:0}.actions kbd{font-size:1.25em;margin-right:.2em}.status{font-size:.54em;color:#b56b65;margin-top:1em;min-height:2em;line-height:1.4;max-width:100%}.status:empty{visibility:hidden}.spotify-shell{position:fixed;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);left:0;bottom:0}.closed{display:none}.reopen{display:none;position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);background:#14252bcc;border:1px solid var(--cyan);padding:1em 2em;letter-spacing:.15em}.hud.closed~.reopen{display:block}@media(max-width:600px){.hud{top:12%;width:80vw;max-width:390px;font-size:14px}}@media(max-height:520px){.hud{top:7%;font-size:10px;width:270px}.stations{height:15em}}@media(prefers-reduced-motion:no-preference){.station{transition:background .12s}}
+button:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}button:disabled{opacity:.35;cursor:default}
+/* Give channel identities and track metadata their own space. */
+.now{height:10.8em;column-gap:1em;grid-template-columns:39% minmax(0,1fr)}
+.badge{padding:.65em .55em 1.35em;gap:.45em}
+.badge svg{height:4.7em;width:85%;flex-shrink:0}
+.badge strong{line-height:1.1;font-size:1.65em;letter-spacing:.12em}
+.badge span{font-size:.52em;line-height:1.45;letter-spacing:.06em;text-align:center;max-width:100%;overflow-wrap:anywhere}
+.badge small{bottom:.5em;line-height:1.6}
+.song{line-height:1.65;letter-spacing:.035em}
+#artist,#title{display:block}#title{font-weight:700}#artist{margin-top:.5em;font-size:.8em;font-weight:400}#separator{display:none}
+.track-row{gap:.5em;font-size:.7em;margin-bottom:.8em}
+.station{gap:.8em;min-height:2.8em;height:auto;padding:.55em .6em;letter-spacing:.025em;white-space:normal;line-height:1.5}
+.station-text{display:flex;align-items:baseline;gap:.8em;min-width:0}
+.station-frequency{flex-shrink:0;min-width:3.5em}
+.station-name{overflow-wrap:anywhere}
+.signal{width:1.8em;height:1.8em;flex-shrink:0;display:flex;align-items:center}
+.signal svg{width:100%;height:100%}
+.station.selected::after{content:"ı▥ı";margin-left:auto;color:var(--cyan);flex-shrink:0;font-size:.8em}
+.station.selected .signal{filter:drop-shadow(0 0 3px #83efff88)}
+.actions{gap:1.1em}.actions kbd{margin-right:.5em}
+/* Match the preferred 80% size while keeping viewport anchors in place. */
+:root{--ui-scale:.8}
+.hud{transform:translateX(-50%) scale(var(--ui-scale));transform-origin:top center}
+
+.reopen{transform:translate(-50%,-50%) scale(var(--ui-scale));transform-origin:center}
+.player-actions{position:fixed;left:3.8%;bottom:9.5%;display:flex;gap:.6em;font-size:clamp(12px,1.5vw,24px);transform:scale(var(--ui-scale));transform-origin:bottom left}
+@media(max-width:600px){.player-actions{bottom:5%}}.player-help{display:grid;place-items:center;width:2em;height:2em;padding:.35em;background:#071b2380;border:1px solid var(--dim);color:var(--cyan)}.player-help svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.player-help:hover:not(:disabled),.player-help[aria-expanded="true"]{background:#69dff52b;border-color:var(--muted)}
+.spotify-shell.player-visible{clip-path:none;width:min(360px,calc(100vw - 32px));height:auto;left:auto;right:16px;bottom:16px;padding:12px;background:#10191f;border:1px solid var(--muted);z-index:6;overflow:visible}
+.spotify-shell iframe{border:0;width:100%;height:152px;display:block;border-radius:12px;clip-path:inset(0 round 12px);background:#10191f}
+.player-heading{display:none}.player-visible .player-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:10px;margin-bottom:10px}.player-heading button{background:none;border:1px solid var(--muted);padding:4px 8px;font-size:10px}
+.badge-loader{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.9em;background:#071519df;color:var(--cyan);pointer-events:none}
+.badge-loader[hidden]{display:none}.badge .badge-loader span{font-size:.5em;letter-spacing:.15em;line-height:1.5}
+.loading-ring{width:2.4em;height:2.4em;border:2px solid #83efff30;border-top-color:var(--cyan);border-right-color:var(--cyan);border-radius:50%;box-shadow:0 0 12px #83efff22;animation:signal-spin .9s linear infinite}
+@keyframes signal-spin{to{transform:rotate(360deg)}}
+.track-controls{display:flex;gap:.5em;align-items:center;color:var(--cyan)}
+.track-controls button{display:grid;place-items:center;width:2em;height:2.4em;padding:.3em;background:#071b23e6;border:1px solid var(--muted);color:var(--cyan)}
+.track-controls svg{width:1.2em;height:1.2em;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round;filter:none}
+.track-controls output{min-width:3.5em;text-align:center;font-weight:700}
+.track-controls button:hover:not(:disabled){background:#69dff52b}.track-controls button:disabled{opacity:.35}
+@media(prefers-reduced-motion:reduce){.loading-ring{animation:none}}
+.badge.has-artwork #badge-graphic,.badge.has-artwork #badge-frequency,.badge.has-artwork #badge-name,.badge.has-artwork > small{display:none}
+.badge.has-artwork:before{display:none}
+.badge.has-artwork:after{content:'';position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:radial-gradient(ellipse at center,transparent 32%,#04090c35 65%,#020608bd 100%);box-shadow:inset 0 0 1em #02060855;transition:background-color .2s ease}
+.badge.has-artwork:hover:after{background-color:#02060855}
+@media(prefers-reduced-motion:reduce){.badge.has-artwork:after{transition:none}}
+.track-key{font-size:.7em;opacity:.8}.track-controls{gap:.4em}.player-actions{align-items:flex-start}
+.play-control{position:relative;display:flex;flex-direction:column;align-items:center}
+.space-key{position:absolute;top:100%;margin-top:1.1em;display:flex;align-items:center;gap:.35em;padding:.35em .55em;font-size:.36em;letter-spacing:.12em;white-space:nowrap;background:#09232aa6;border-radius:0;box-shadow:inset 2px 0 #83efff66,0 0 7px #83efff18;clip-path:polygon(0 0,100% 0,100% 75%,90% 100%,0 100%)}
+.space-key svg{width:2em;height:.8em;fill:none;stroke:currentColor;stroke-width:1.6}
+</style>
+</head>
+<body>
+<div class="world" aria-hidden="true"><div class="architecture"></div><div class="sign"></div><div class="road"></div></div><div class="veil"></div><div class="scanlines"></div>
+<main class="hud" id="hud" aria-label="Radioport">
+<span class="eyebrow">TELECOMMUNICATIONS</span><header class="frame">RADIOPORT</header>
+<section class="now" aria-label="Now playing"><div class="badge" id="badge" aria-busy="false">
+<div class="badge-loader" id="badge-loader" hidden><div class="loading-ring" aria-hidden="true"></div><span>CONNECTING…</span></div>
+
+<svg id="badge-graphic" viewBox="0 0 120 95" aria-hidden="true"><path fill="#83efff" d="m28 46 9-18-3-17 15 7 12-7 12 8 16-8-4 22 10 14-18-4 20 20-25-9 12 22-21-17-5 28-8-25-22 15 12-26-23 12 13-19-18 6z"/><path fill="#092c37" d="m41 35 17 8-12 1zm33 0-13 8 15-2zM49 54l11-5 10 6-10 7z"/></svg>
+<strong id="badge-frequency">89.7</strong><span id="badge-name">GROWL FM</span><small>NIGHT CITY // INDEPENDENT RADIO<br>TRANSMISSION SYSTEM · NC 2077</small></div>
+<div class="metadata"><span class="label">NOW PLAYING</span><h1 class="song"><span id="title">SAMAYOERU MAMA YUKE</span><span id="separator"> - </span><span id="artist">HARU NEMURI</span></h1><div class="track-row"><span>TRACK</span><div class="track-controls" role="group" aria-label="Current channel songs">
+<kbd class="track-key" aria-hidden="true">A</kbd><button type="button" id="previous-track" aria-label="Previous song in current channel" title="Previous song (A)" aria-keyshortcuts="A" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5v14M18 5 8 12l10 7z"/></svg></button>
+<output id="track-number" aria-label="Current track number" aria-live="polite">0 / 0</output>
+<button type="button" id="next-track" aria-label="Next song in current channel" title="Next song (D)" aria-keyshortcuts="D" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 5v14M6 5l10 7-10 7z"/></svg></button>
+<kbd class="track-key" aria-hidden="true">D</kbd></div></div></div></section>
+<div class="stations" id="stations" role="listbox" tabindex="0" aria-label="Radio stations"></div>
+<footer class="footer"><span class="micro">NETWORK STATUS: CONNECTED<br>NIGHT CITY MUNICIPAL FREQUENCIES<br>RADIOPORT // SIGNAL RECEIVER V.2.077</span><div class="actions"><button id="select" aria-keyshortcuts="F Enter"><kbd>F</kbd>SELECT</button><button id="close" aria-keyshortcuts="C Escape"><kbd>C</kbd>CLOSE</button></div></footer><div class="status" id="status" role="status" aria-live="polite"></div>
+
+</main><button class="reopen" id="reopen">[F] OPEN RADIOPORT</button>
+<div class="player-actions" role="group" aria-label="Playback controls">
+<div class="play-control"><button type="button" class="player-help" id="play-pause" aria-label="Play" aria-keyshortcuts="Space" title="Play (Space)" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path id="play-pause-icon" d="m8 5 11 7-11 7z"/></svg></button><kbd class="space-key" aria-hidden="true"><svg viewBox="0 0 32 10"><path d="M2 1v7h28V1"/></svg></kbd></div>
+<button type="button" class="player-help" id="player-toggle" aria-label="Show Spotify controls" title="Spotify controls" aria-controls="player-panel" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M6 9q6-3 12 0M7 12q5-2.5 10 0M8 15q4-2 8 0"/></svg></button>
+</div><div class="spotify-shell" id="player-panel"><div class="player-heading"><span>SPOTIFY · Sign in or press Play</span><button type="button" id="player-hide">HIDE</button></div><iframe id="spotify-player" title="Spotify radio player" width="1" height="1" src="about:blank" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" tabindex="-1"></iframe></div>
+<script>
+'use strict';
+const $ = id => document.getElementById(id);
+let stations = [], cursor = 0, active = null, controller = null, api = null, pendingUri = null, initializing = false, playerReady = false;
+let queue = [], trackIndex = 0, awaitingStart = true, autoPlayPending = false;
+const validUri = uri => typeof uri === 'string' && /^spotify:track:[A-Za-z0-9]{22}$/.test(uri);
+function status(message) { $('status').textContent = message; }
+// Original vector marks inspired by each station's name and musical identity.
+const stationGraphics = {
+  '88.9': '<circle cx="60" cy="38" r="19"/><path d="M12 62q12-14 24 0t24 0 24 0 24 0M12 76q12-14 24 0t24 0 24 0 24 0M60 5v7M24 20l7 6M96 20l-7 6"/>',
+  '89.3': '<path d="M13 17l28 62 19-42 19 42 28-62H84L69 48 60 9 51 48 36 17zM13 88h94"/>',
+  '89.7': '<path fill="currentColor" stroke="none" d="m28 46 9-18-3-17 15 7 12-7 12 8 16-8-4 22 10 14-18-4 20 20-25-9 12 22-21-17-5 28-8-25-22 15 12-26-23 12 13-19-18 6z"/><path stroke="#092c37" d="m41 35 14 7m20-7-13 7m-12 12 10 6 10-6"/>',
+  '91.9': '<path d="M25 73V20h65v14H43v39M43 35h34v15H43M44 53h26v20H44M25 82h65"/><circle cx="87" cy="67" r="8"/>',
+  '92.9': '<path d="M77 13a33 33 0 1 0 14 59A34 34 0 0 1 77 13zM95 10v16m-8-8h16M21 18v10m-5-5h10"/>',
+  '95.2': '<path d="M23 14h74v67H23zM32 28h56M32 40h38M32 52h56M32 64h24M72 63l12 8-12 8zM17 20H9v67h82"/>',
+  '96.1': '<circle cx="60" cy="46" r="37"/><path d="m60 10 23 66-59-41h72L37 76zM45 88h30"/>',
+  '98.7': '<path fill="currentColor" stroke="none" d="m29 8 18 6 13-7 14 9 18-8-5 23 14 20-23-5 18 17-25-8 13 21-20-13-5 28-9-27-23 16 12-24-26 9 20-20-19 5 19-21z"/><path stroke="#092c37" stroke-width="5" d="m37 35 16 5m28-5-16 5m-17 14 12-5 12 5-12 8z"/>',
+  '101.0': '<path d="M29 17h62v39L77 69v16H43V69L29 56zM43 37h9v10h-9zm25 0h9v10h-9zM55 58l5-8 5 8M51 72v12m9-12v12m9-12v12"/>',
+  '103.5': '<rect x="28" y="14" width="64" height="57" rx="3"/><path d="M38 25h44v32H38zM49 83h22M60 71v12M47 35l7 6-7 6m16 0h10M16 32h12m64 0h12"/>',
+  '106.9': '<path d="m18 35 12 42h60l12-42-23 16-19-32-19 32zM30 87h60"/><circle cx="18" cy="28" r="4"/><circle cx="60" cy="12" r="4"/><circle cx="102" cy="28" r="4"/>',
+  '107.3': '<path d="m27 13 18 10-7 21 20-13 21 13-6-21 18-10-3 45-28 28-30-28zM40 54l12 5m27-5-12 5M52 72h16"/>'
+};
+function graphicMarkup(frequency) {
+  return stationGraphics[frequency] || '<circle cx="60" cy="46" r="28"/><path d="m39 67 42-42M19 24a48 48 0 0 0 0 44m82-44a48 48 0 0 1 0 44"/>';
+}
+function stationIcon(frequency) {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('viewBox', '0 0 120 95');
+  svg.setAttribute('fill', 'none');
+  svg.setAttribute('stroke', 'currentColor');
+  svg.setAttribute('stroke-width', '4');
+  svg.setAttribute('stroke-linejoin', 'miter');
+  svg.innerHTML = graphicMarkup(frequency);
+  return svg;
+}
+function showTrack(track, station) {
+  $('artist').textContent = track?.artist || '';
+  $('separator').textContent = track?.artist ? ' - ' : '';
+  $('title').textContent = track?.track_title || 'NO STATION';
+  $('badge-graphic').replaceWith(Object.assign(stationIcon(station?.station_num), {id:'badge-graphic'}));
+  $('badge-frequency').textContent = station?.station_num || 'OFF';
+  $('badge-name').textContent = station?.station_name || 'NO SIGNAL';
+  const artwork = track?.album_artwork_url;
+  const hasArtwork = typeof artwork === 'string' && /^https:\/\//.test(artwork);
+  $('badge').classList.toggle('has-artwork', hasArtwork);
+  $('badge').style.backgroundImage = hasArtwork ? `url(${JSON.stringify(artwork)})` : '';
+  $('badge').style.backgroundSize = 'cover';
+  $('badge').style.backgroundPosition = 'center';
+}
+function render() {
+  $('stations').replaceChildren(...stations.map((station, index) => {
+    const button = document.createElement('button');
+    button.className = `station${index === cursor ? ' selected' : ''}`;
+    button.id = `station-${index}`;
+    button.type = 'button'; button.tabIndex = -1;
+    button.setAttribute('role', 'option'); button.setAttribute('aria-selected', String(index === cursor));
+    const icon = document.createElement('span'); icon.className = 'signal'; icon.append(stationIcon(station.station_num)); icon.setAttribute('aria-hidden', 'true');
+    const text = document.createElement('span'); text.className = 'station-text';
+    const frequency = document.createElement('span'); frequency.className = 'station-frequency'; frequency.textContent = station.station_num;
+    const name = document.createElement('span'); name.className = 'station-name'; name.textContent = station.station_name;
+    if (station.station_num) text.append(frequency);
+    text.append(name);
+    button.append(icon, text); button.addEventListener('click', () => { cursor = index; render(); $('stations').focus({preventScroll:true}); selectStation(); });
+    return button;
+  }));
+  $('stations').setAttribute('aria-activedescendant', `station-${cursor}`);
+}
+function setLoading(loading) {
+  $('badge-loader').hidden = !loading;
+  $('badge').setAttribute('aria-busy', String(loading));
+}
+function updateTrackControls() {
+  $('previous-track').disabled = !queue.length;
+  $('next-track').disabled = !queue.length;
+  $('play-pause').disabled = !queue.length;
+  $('track-number').textContent = `${queue.length ? trackIndex + 1 : 0} / ${queue.length}`;
+}
+function setPlaybackState(paused) {
+  $('play-pause-icon').setAttribute('d', paused ? 'm8 5 11 7-11 7z' : 'M8 5v14M16 5v14');
+  $('play-pause').setAttribute('aria-label', paused ? 'Play' : 'Pause');
+  $('play-pause').title = paused ? 'Play (Space)' : 'Pause (Space)';
+}
+function playCurrentTrack() {
+  const track = queue[trackIndex];
+  if (!track) return;
+  updateTrackControls();
+  pendingUri = track.uri;
+  try {
+    localStorage.setItem(savedTrackKey(), track.uri);
+  } catch {
+    // Keep playback available when storage is blocked or full.
+  }
+  awaitingStart = true;
+  autoPlayPending = true;
+  setLoading(true);
+  setPlaybackState(true);
+  showTrack(track, active);
+  status('CONNECTING TO SPOTIFY… · No audio? Click the Spotify icon and press Play.');
+  if (controller && playerReady) {
+    controller.loadUri(pendingUri);
+    controller.play();
+  } else {
+    bootPlayer();
+    if (!api) status('Waiting for Spotify. Check your connection or content blocker.');
+  }
+}
+function savedTrackKey() {
+  return `radioport.lastTrack.${active.station_num || active.station_name}`;
+}
+function restoredTrackIndex() {
+  try {
+    const uri = localStorage.getItem(savedTrackKey());
+    return Math.max(0, queue.findIndex(track => track.uri === uri));
+  } catch {
+    return 0;
+  }
+}
+function previousTrack() {
+  if (!queue.length) return;
+  trackIndex = (trackIndex - 1 + queue.length) % queue.length;
+  playCurrentTrack();
+}
+function nextTrack() {
+  if (!queue.length) return;
+  trackIndex = (trackIndex + 1) % queue.length;
+  playCurrentTrack();
+}
+function handlePlaybackUpdate(event) {
+  const data = event.data || {};
+  const track = queue[trackIndex];
+  // Ignore delayed events from a channel or song that was just replaced.
+  if (!track || data.playingURI !== pendingUri) return;
+  setLoading(Boolean(data.isBuffering));
+  setPlaybackState(Boolean(data.isPaused));
+  if (!data.isPaused && !data.isBuffering) autoPlayPending = false;
+  const duration = Number(data.duration), position = Number(data.position);
+  // Re-arm only after the new song has begun, including a one-song loop.
+  if (!data.isPaused && !data.isBuffering && position >= 0 &&
+      (duration <= 0 || position < duration - 250)) awaitingStart = false;
+  if (!awaitingStart && !data.isBuffering && duration > 0 && position >= duration - 100) {
+    nextTrack();
+    return;
+  }
+  showTrack(track, active);
+  status(data.isBuffering ? 'BUFFERING SIGNAL…' : data.isPaused
+    ? 'SIGNAL PAUSED · Press Play, F, or SELECT.' : '');
+}
+function bootPlayer() {
+  if (!api || controller || initializing || !validUri(pendingUri)) return;
+  initializing = true;
+  const initialUri = pendingUri;
+  api.createController($('spotify-player'), {uri: initialUri, width: 320, height: 152}, embed => {
+    controller = embed;
+    embed.addListener('ready', () => {
+      // Loading a URI can emit ready again; never reload from a repeated ready event.
+      if (playerReady) {
+        if (autoPlayPending && queue.length) {
+          autoPlayPending = false;
+          embed.play();
+        }
+        return;
+      }
+      playerReady = true;
+      autoPlayPending = false;
+      if (!queue.length) { setLoading(false); embed.pause(); return; }
+      if (pendingUri !== initialUri) embed.loadUri(pendingUri);
+      embed.play();
+    });
+    embed.addListener('playback_update', handlePlaybackUpdate);
+  });
+}
+window.onSpotifyIframeApiReady = iframeApi => { api = iframeApi; bootPlayer(); };
+function initialStationIndex() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('radioport.lastStation'));
+    if (saved && typeof saved.station_num === 'string') {
+      const index = stations.findIndex(station => station.station_num === saved.station_num);
+      if (index >= 0) return index;
+    }
+  } catch {
+    // Storage may be disabled or contain invalid data; use the normal default.
+  }
+  const growl = stations.findIndex(station => station.station_name === 'GROWL FM');
+  if (growl >= 0 && stations[growl].tracks.some(track => validUri(track.uri))) return growl;
+  const playable = stations.findIndex(station => station.tracks.some(track => validUri(track.uri)));
+  return playable >= 0 ? playable : Math.max(0, growl);
+}
+function selectStation() {
+  const selected = stations[cursor];
+  if (!selected) return;
+  try {
+    localStorage.setItem('radioport.lastStation', JSON.stringify({station_num: selected.station_num}));
+  } catch {
+    // Playback still works when browser storage is unavailable.
+  }
+  if (active === selected && queue.length && controller && playerReady) {
+    controller.resume();
+    return;
+  }
+  active = selected;
+  queue = active.tracks.filter(track => validUri(track.uri));
+  trackIndex = restoredTrackIndex();
+  updateTrackControls();
+  pendingUri = null;
+  awaitingStart = true;
+  if (!queue.length) {
+    autoPlayPending = false;
+    setPlaybackState(true);
+    setLoading(false);
+    controller?.pause();
+    showTrack(active.tracks[0], active);
+    status(active.station_name === 'NO STATION' ? '' : 'UNRESOLVED SIGNAL · Run the Spotify lookup to enable playback.');
+    return;
+  }
+  playCurrentTrack();
+}
+function togglePlayerControls(visible) {
+  $('player-panel').classList.toggle('player-visible', visible);
+  $('player-toggle').setAttribute('aria-expanded', String(visible));
+  $('player-toggle').setAttribute('aria-label', visible ? 'Hide Spotify controls' : 'Show Spotify controls');
+  const iframe = $('player-panel').querySelector('iframe');
+  if (iframe) iframe.tabIndex = visible ? 0 : -1;
+}
+$('play-pause').addEventListener('click', () => {
+  if (!queue.length) return;
+  if (controller && playerReady) { autoPlayPending = false; controller.togglePlay(); }
+  else playCurrentTrack();
+});
+$('player-toggle').addEventListener('click', () => {
+  togglePlayerControls(!$('player-panel').classList.contains('player-visible'));
+});
+$('player-hide').addEventListener('click', () => {
+  togglePlayerControls(false);
+  $('player-toggle').focus();
+});
+function closeMenu() { $('hud').classList.add('closed'); $('reopen').focus(); }
+function openMenu() { $('hud').classList.remove('closed'); $('stations').focus(); }
+$('previous-track').addEventListener('click', previousTrack);
+$('next-track').addEventListener('click', nextTrack);
+$('select').addEventListener('click', selectStation); $('close').addEventListener('click', closeMenu); $('reopen').addEventListener('click', openMenu);
+document.addEventListener('keydown', event => {
+  if (event.ctrlKey || event.metaKey || event.altKey || event.target.isContentEditable || event.target.closest('input, textarea, select')) return;
+  if (event.key === ' ' && !event.target.closest('button, a')) {
+    event.preventDefault();
+    if (!event.repeat) $('play-pause').click();
+    return;
+  }
+  const key = event.key.toLowerCase();
+  if ($('hud').classList.contains('closed')) { if (['f','enter'].includes(key)) { event.preventDefault(); openMenu(); } return; }
+  if (['ArrowDown','ArrowUp'].includes(event.key) && stations.length) {
+    event.preventDefault(); cursor = (cursor + (event.key === 'ArrowDown' ? 1 : -1) + stations.length) % stations.length;
+    render(); $('stations').focus({preventScroll:true}); $('stations').querySelector('.selected')?.scrollIntoView({block:'nearest'});
+  } else if (key === 'a' || key === 'd') { event.preventDefault(); if (key === 'a') previousTrack(); else nextTrack(); }
+  else if (event.key.toLowerCase() === 'f' || (event.key === 'Enter' && event.target.tagName !== 'BUTTON')) { event.preventDefault(); selectStation(); }
+  else if (event.key.toLowerCase() === 'c' || event.key === 'Escape') { event.preventDefault(); closeMenu(); }
+});
+(async () => {
+  try {
+    const response = await fetch('./stations.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const records = await response.json();
+    if (!Array.isArray(records) || !records.every(item => item && typeof item.station_name === 'string' && typeof item.track_title === 'string' && typeof item.artist === 'string')) throw new Error('Invalid station data');
+    stations = [{station_num:'',station_name:'NO STATION',tracks:[]}];
+    for (const track of records) {
+      let station = stations.find(item => item.station_num === String(track.station_num ?? '') && item.station_name === track.station_name);
+      if (!station) { station = {station_num:String(track.station_num ?? ''),station_name:track.station_name,tracks:[]}; stations.push(station); }
+      station.tracks.push(track);
+    }
+    cursor = initialStationIndex();
+    render();
+    selectStation();
+    $('stations').querySelector('.selected')?.scrollIntoView({block:'nearest'});
+  } catch (error) { status(`STATION DATA UNAVAILABLE · Serve this folder over HTTP and check stations.json. ${error.message}`); }
+})();
+</script>
+<script src="https://open.spotify.com/embed/iframe-api/v1" async onerror="setLoading(false); document.getElementById('status').textContent='Spotify unavailable. Check your connection or content blocker.'"></script>
+</body>
+</html>
