@@ -1,0 +1,210 @@
+Use my logged-in Spotify Web Player browser session to find Spotify track IDs for every catalog entry below. These are Cyberpunk 2077 radio songs. The catalog artist may be an in-game alias; use the supplied performed-by artist as an alternative search term.
+
+Requirements:
+- Use Spotify's visible browser interface only. Search each entry by title and artist; try the performed-by artist when needed.
+- Confirm the title and artist on Spotify before recording the track link or ID. Do not guess IDs or substitute a different song, cover, remix, or unrelated artist.
+- Process all 197 numbered entries, including duplicates. Keep their original numbers, titles, and catalog artists unchanged.
+- If a match is uncertain or unavailable, set uri to "spotify:track:" and explain why.
+- For confirmed matches, use "spotify:track:TRACK_ID" and include the Spotify track URL as evidence.
+- Return results as a JSON array with these fields: catalog_index, track_title, artist, uri, spotify_url, notes. catalog_index is the 1-based number below.
+- Return progress in batches of 20 entries. Continue through all entries if browser control allows it; clearly state the last completed index if interrupted.
+- At the end, report confirmed and unresolved counts, plus ambiguous matches. Do not claim completion unless all 197 entries have been checked.
+
+Catalog entries (title — catalog artist; performed-by information is search context):
+1. Isometric Air — Quantum Lovers (performed by Brian Aspey)
+2. Practical Heart — Quantum Lovers (performed by Brian Aspey)
+3. Real Window — Quantum Lovers (performed by Brian Aspey)
+4. Blurred — Lick Switch (performed by Earth Trax)
+5. Midnight Eye — Lick Switch (performed by Earth Trax)
+6. The Other Room — Lick Switch (performed by Earth Trax)
+7. Antagonistic — Pacific Avenue (performed by Sebastian Robertson; Chris Cardena)
+8. Simple Pleasures — Jansens (performed by Kid Moxie)
+9. Lithium — Flatlander Woman (performed by SLG)
+10. Slag — Flatlander Woman (performed by SLG)
+11. Chooze — Muchomorr (performed by Mchy I Porosty)
+12. La Stessa Causa — Sonoris Causa (performed by Eltron)
+13. Retrogenesis — Left Unsaid (performed by Private Press)
+14. Miami Suicide — Talk To Us (performed by Chino)
+15. Slipper Tabs — Talk To Us (performed by Chino)
+16. Ice Maddox — Mona Mitchell (performed by FOQL)
+17. Ashes and Diamonds — Wormview (performed by Hatti Vatti)
+18. Pig Dinner — N1v3Z (performed by Ho99o9)
+19. Resist and Disorder — The Cartesian Duelists (performed by Rezodrone (Jason Charles Miller))
+20. Kill the Messenger — The Cartesian Duelists (performed by Rezodrone (Jason Charles Miller))
+21. Reaktion — Alexei Brayko (performed by Rezodrone (Jason Charles Miller))
+22. Makes Me Feel Better — Slavoj McAllister (performed by OnenO)
+23. Dead Pilot — Keine (performed by SRDD (Sebastian Roberston; Daniel Davies))
+24. Come Close — Keine (performed by SRDD (Sebastian Roberston; Daniel Davies))
+25. Black Terminal — Upgrade (performed by Black Terminal)
+26. With Her — Ego Affliction (performed by Steven Richard Davis)
+27. Never Stop Me — Den of Degenerates (performed by Steven Richard Davis)
+28. Selva Pulsatil — Tainted Overlord (performed by Deafkids)
+29. A Caca — Tainted Overlord (performed by Deafkids)
+30. Night City Aliens — Homeschool Dropouts (performed by The Armed)
+31. Pain — The Red Glare (performed by Le Destroy)
+32. Violence — The Red Glare (performed by Le Destroy)
+33. Samayoeru Mama Yuke — Haru Numeri
+34. Let the stars die — Coeur Noir
+35. Flatline — Red Dead Roadkill (performed by Red Dead Roadkill; Dee Wolf)
+36. Candy Shell — Spirit Machines
+37. Do or Die — NoWorld
+38. Afterlife — Thai McGrath (ft. JustCosplaySings) (performed by Thai McGrath; JustCosplaySings)
+39. Nebula — ESAI, Pure 100%
+40. LIT — Entolim
+41. El Tiempo — Skin on Flesh
+42. Killshot — Frost, Justtjokay, Dubbygotbars, Knyvez
+43. Slipstream — Kiba
+44. FUMES — Aleyna Moon, Shrinjay Ghosh
+45. Look Through My Kiroshi's (The Solo Life) — D.O.H. Dollahz Ova Hoez
+46. Going To Heaven — St. Aurora
+47. Black Satin — Miles Davis
+48. What If — Miles Davis
+49. Agharta Prelude Dub — Miles Davis
+50. Bitches Brew — Miles Davis
+51. Generique — Miles Davis
+52. Round Midnight — Thelonious Monk
+53. Dark Prince — Trio of Doom
+54. Impressions — John Coltrane
+55. Solo Dancer — Charles Mingus
+56. Laura — Dexter Gordon
+57. You Don't Know What Love Is — Chet Baker
+58. Run — Kings of Collapse (performed by Steven Richard Davis)
+59. Dirty Roses — Perilous Futur (performed by OneonO)
+60. Worlds — The Unresolved (performed by SRDD (Sebastian Roberston; Daniel Davies))
+61. X — The Unresolved (performed by SRDD (Sebastian Roberston; Daniel Davies))
+62. Brain-Damaged — Cyber Coorayber (performed by Nikola Nikita Jeremic)
+63. Maniak — Doctor Berserk (performed by Picasso)
+64. Be Machine — Generating Dependencies (performed by Poly Face)
+65. Like a Miracle — Lick Switch (performed by Earth Trax)
+66. Glitched Revelation — Reviscerator (performed by Procesor Plus)
+67. Yellow Box — Reviscerator (performed by Procesor Plus)
+68. Kill Kill — The Bait (performed by Le Destroy)
+69. Flying Heads — Ashes Potts (performed by Kid Moxie; Ivan Iusco; Elena Charbila)
+70. Volcano The Sailor — Yards of the Moon (performed by Poloz)
+71. Pilling in My Head — Bara Nova (performed by Nina Kraviz)
+72. My Lullaby for You — Bara Nova (performed by Nina Kraviz)
+73. Harm Sweaty Pit — Bara Nova (performed by Nina Kraviz)
+74. Surprise Me, I'm Surprised Today — Bara Nova (performed by Nina Kraviz)
+75. Delirium 2 — Bara Nova (performed by Nina Kraviz)
+76. Abandoned Land — Fist of Satan (performed by Arthur Ruminski; Haldor Grunberg)
+77. Black Concrete — Fist of Satan (performed by Arthur Ruminski; Haldor Grunberg)
+78. I Won't Let You Go — Shattered Void (performed by Converge)
+79. March 30 — Bacillus (performed by Tomb Mold)
+80. Adaptive Manipulator — Bacillus (performed by Tomb Mold)
+81. The Accursed — Dread Soul (performed by Antre)
+82. Finis — V3RM1N (performed by Piotr Maciejewski)
+83. Acid Breather — Forlorn Scourge (performed by Mastiff)
+84. Witches of the Harz Mountains — Nuclear Aura (performed by Marcin Rybicki)
+85. The Loop — Weles (performed by Deszcz)
+86. Scrum — Hysteria (performed by Totenmesse)
+87. Fuelled By Poison — Inferno Crops (performed by Antigama)
+88. Kevin — Inferno Crops (performed by Antigama)
+89. Future Drugs — Hexxxer (performed by Mord'A'Stigmata)
+90. Zurawie — Wydech (performed by Ugory)
+91. Who's Ready for Tomorrow — IBDY (performed by RAT BOY)
+92. Crustpunk — IBDY (performed by RAT BOY)
+93. Here's a Thought — IBDY (performed by RAT BOY)
+94. Off the Leash — Us Cracks (ft. Kerry Eurodyne) (performed by Namakopuri; Damian Ukeje)
+95. User Friendly (Cover) — Us Cracks (performed by Namakopuri)
+96. Ponpon Shit — Us Cracks (performed by Namakopuri)
+97. BM — Clockwork Venus (performed by SOPHIE; Shygirl)
+98. Circus Minimus — Neon Haze (performed by Jvzel)
+99. Major Crimes — Window Weather (performed by HEALTH)
+100. Night City — Artemis Delta (performed by R E L)
+101. I Really Want to Stay at Your House — Hallie Coggins (performed by Rosa Walton (Let's Eat Grandma))
+102. Hole In The Sun — Point Break Candy (performed by Raney Shockne (ft. COS); Conway)
+103. Blind — American Medical Association (performed by Raney Shockne)
+104. History — Trash Generation (performed by Gazelle Twin)
+105. 4ÆM — Lizzy Wizzy (performed by Grimes)
+106. Delicate Weapon — Lizzy Wizzy (performed by Grimes)
+107. Walk of Shame — Idris Elba
+108. Dreamy — Private Press
+109. DEEEEEEP — Private Press
+110. Black Labyrinth — Private Press
+111. Feed Your Soul — Private Press
+112. Liquid Disco — Private Press
+113. Sleepy Dust — Private Press
+114. Sparkling Frequency — Private Press
+115. Undeniably Changes — Private Press
+116. Void — Private Press
+117. Woozee — Private Press
+118. GREEEEEENHOUSE — Private Press
+119. BESTPL — Private Press
+120. ENERGEEHOUSE — Private Press
+121. Day of Dead — Haps (performed by Konrad OldMoney (ft. Taelor Yung))
+122. Run The Block — Bez Tatami (ft. Gully Foyle) (performed by Konrad OldMoney (ft. Taelor Yung))
+123. Bigger Man — Droox (performed by Konrad OldMoney (ft. Taelor Yung))
+124. Problem Kids — Young Kenny (performed by Konrad OldMoney (ft. Taelor Yung))
+125. Bruzez — Knixit (performed by Konrad OldMoney (ft. Johnny GR4VES))
+126. Clip Boss — Sugarcoob (ft. Anak Konda) (performed by Konrad OldMoney (ft. Johnny GR4VES))
+127. GR4VES — Kyubik (performed by Konrad OldMoney (ft. Johnny GR4VES))
+128. Pluck U — Triple-B (ft. Gun-Fu) (performed by Konrad OldMoney (ft. Ded Stark))
+129. Hello Good Morning — Pazoozu (performed by Konrad OldMoney (ft. S-God))
+130. Blouses Blue — NC3 (performed by Konrad OldMoney (ft. Perry Porter; Cidro Onetoo))
+131. High School Bully — UMVN (ft. IMP RA) (performed by Konrad OldMoney (ft. Perry Porter; Cidro Onetoo))
+132. Warning Shots — Laputan Machine (performed by Konrad OldMoney (ft. Perry Porter; Cidro Onetoo))
+133. NBOM — Dapxflem (performed by Konrad OldMoney (ft. Perry Porter; Cidro Onetoo))
+134. Go Blaze — DNE (ft. G'Natt) (performed by Konrad OldMoney (ft. Chanarah; Cidro Onetoo))
+135. Dishonor — Ichibanchi (performed by Konrad OldMoney (ft. Brevner))
+136. Frost — Yamete (performed by Konrad OldMoney (ft. Frawst))
+137. No Save Point — Yankee and the Brave (performed by Run The Jewels)
+138. Suicide — Code 137 (performed by Geno Lenardo (ft. Zeale))
+139. The God Machines — Kill Trigger (ft. Paul Senai & Krakow) (performed by Sebastian Robertson; Kill the Computer; Indijinouz)
+140. Flacko Locko — Telo$ (performed by A$AP Rocky)
+141. La Canopée — culteX (performed by Private Press)
+142. Undertow Velocity — Skin<>Drifter (performed by Private Press)
+143. IIOI Break — Yards of the Moon (performed by Private Press)
+144. Across the Floor — Retinal Scam (performed by Private Press)
+145. Gridflow — Retinal Scam (performed by Private Press)
+146. Darkretro — Dukes of Azure (performed by Count)
+147. Stackoverflow — Clockwork OS (performed by Dos Era)
+148. On My Way to Hell — Tinnitus (performed by Połoz)
+149. Vascular — Tar Hawk (performed by Speed Dating (ft. Horrid Charme))
+150. Subvert — Spoon Eater (performed by Rhys Fulber)
+151. Drained — Sao Mai (performed by Rhys Fulber)
+152. Follow the White Crow — Nablus (performed by Kid Moxie; Ivan Iusco; Elena Charbila)
+153. Fake Spook — IOshrine (performed by Poly Face)
+154. Move Dat — [flesh]reactor (performed by Poly Face)
+155. CANNIBALISMUS — Bullet in the Head (performed by Lutto Lento)
+156. Bios — Error (performed by Louve)
+157. Bamo — Kartel Sonoro (performed by Konrad OldMoney (ft. Frawst))
+158. Dagga — Kartel Sonoro (performed by Konrad OldMoney (ft. Cerbeus; Johnny GR4VES))
+159. Serpant — 7 Faces (performed by Konrad OldMoney (ft. Cerbeus; Johnny GR4VES))
+160. Dinero — 7 Faces (performed by Konrad OldMoney (ft. Cerbeus))
+161. Westcoast Til I Die — DJ Choloz (performed by Konrad OldMoney (ft. Cerbeus))
+162. Hood — Chickychickas (performed by Konrad OldMoney (ft. Awrath))
+163. Only Son — Chickychickas (performed by Konrad OldMoney (ft. 37 Heartbreak))
+164. Tatted on My Face — Don Mara (performed by Konrad OldMoney (ft. 37 Heartbreak))
+165. Muerto Trash — FKXU (performed by Konrad OldMoney (ft. Blackheart NC))
+166. Barrio — Big Machete (performed by Konrad OldMoney)
+167. Muévelo — Papito Gringo (performed by David Rolas)
+168. Cumbia — Papito Gringo (performed by David Rolas)
+169. Friday Night Fire Fight — Rubicones (performed by Aligns)
+170. Trauma — Rubicones (performed by Aligns)
+171. Never Fade Away — Samurai (performed by Refused)
+172. Black Dog — Samurai (performed by Refused)
+173. Chippin' In — Samurai (performed by Refused)
+174. The Ballad of Buck Ravers — Samurai (performed by Refused)
+175. Who's Ready for Tomorrow — IBDY (performed by RAT BOY)
+176. Likewise — IBDY (performed by RAT BOY)
+177. Suffer Me — Brutus Backlash (performed by The Cold Stares)
+178. Heave Ho — XerzeX (performed by Konrad OldMoney (ft. Frawst))
+179. I Will Follow — Beached Tarantula (performed by Snot Abundance)
+180. No Convenient Apocalypse — Krushchev's Ghosts (performed by Pissed Jeans)
+181. Summer of 2069 — Blood and Ice (performed by Metz)
+182. Sustain/Decay — Cutthroat (performed by Piotr Maciejewski (Drivealone))
+183. So it Goes — Fingers and The Outlaws (performed by Man Man)
+184. To The Fullest — Artificial Kids (performed by The Unfit)
+185. Choke hold — Mr. Kipper (performed by Idris Elba)
+186. Rolla — Mr. Kipper (performed by Idris)
+187. Headrush — BADPANNINI (performed by Backxwash)
+188. Orbital Insertion — No Strings Attached (performed by Hagop Tchaparian)
+189. Cyko Arctic — Bwana Mungu (performed by Lord Spikeheart; Chrisman)
+190. Pierwszy raz naprawdę — OLO Y (performed by 27.Fuckdemons)
+191. NUCLEARDREAMLAND — DJ papergekko (performed by julek ploski)
+192. Bigger Crimes — DJ papergekko (performed by julek ploski)
+193. IKARI — Ecko Frequency (performed by Ecko Bazz, Silkback)
+194. fabrica KOSMOS — Her Mashewsky (performed by Kuba Wandacjpwocz)
+195. Minion Sex — Mightonauts (performed by T'len Lai)
+196. dRk — Walt Air (performed by Krzysztof Freeze Ostrowski)
+197. Memories of Mzuzu — Łotr (performed by Połoz)
