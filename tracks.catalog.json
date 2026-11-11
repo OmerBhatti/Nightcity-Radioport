@@ -142,20 +142,6 @@
   {
     "station_num": "88.9",
     "station_name": "Pacific Dreams",
-    "track_title": "Chooze",
-    "artist": "Muchomorr",
-    "in_game_artist": "Muchomorr",
-    "performed_by": "Mchy I Porosty",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "88.9",
-    "station_name": "Pacific Dreams",
     "track_title": "La Stessa Causa",
     "artist": "Sonoris Causa",
     "in_game_artist": "Sonoris Causa",
@@ -198,20 +184,6 @@
   {
     "station_num": "88.9",
     "station_name": "Pacific Dreams",
-    "track_title": "Slipper Tabs",
-    "artist": "Talk To Us",
-    "in_game_artist": "Talk To Us",
-    "performed_by": "Chino",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "88.9",
-    "station_name": "Pacific Dreams",
     "track_title": "Ice Maddox",
     "artist": "Mona Mitchell",
     "in_game_artist": "Mona Mitchell",
@@ -236,20 +208,6 @@
     "spotify_track_name": "Ashes and Diamonds",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273159132bab235dc44372c3d71",
     "match_status": "manual_confirmed"
-  },
-  {
-    "station_num": "89.3",
-    "station_name": "RADIO VEXELSTROM",
-    "track_title": "Pig Dinner",
-    "artist": "N1v3Z",
-    "in_game_artist": "N1v3Z",
-    "performed_by": "Ho99o9",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
   },
   {
     "station_num": "89.3",
@@ -344,10 +302,10 @@
     "performed_by": "Black Terminal",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:0WgPgM5hEWowvqvLccF1uw",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "89.3",
@@ -386,24 +344,10 @@
     "performed_by": "Deafkids",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:5gttZFH0YifP1t47JW2iyl",
     "spotify_track_name": "Selva Pulsátil",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273199527ea98e780e65a9afc65",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "89.3",
-    "station_name": "RADIO VEXELSTROM",
-    "track_title": "A Caca",
-    "artist": "Tainted Overlord",
-    "in_game_artist": "Tainted Overlord",
-    "performed_by": "Deafkids",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "89.3",
@@ -446,20 +390,6 @@
     "spotify_track_name": "Violence",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b2731dbbe25807996493bc175633",
     "match_status": "manual_confirmed"
-  },
-  {
-    "station_num": "89.7",
-    "station_name": "Growl FM",
-    "track_title": "Samayoeru Mama Yuke",
-    "artist": "Haru Numeri",
-    "in_game_artist": "Haru Numeri",
-    "performed_by": "Haru Numeri",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
   },
   {
     "station_num": "89.7",
@@ -530,20 +460,6 @@
     "spotify_track_name": "Afterlife",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b27385962ab7081863a5660ca455",
     "match_status": "manual_confirmed"
-  },
-  {
-    "station_num": "89.7",
-    "station_name": "Growl FM",
-    "track_title": "Nebula",
-    "artist": "ESAI, Pure 100%",
-    "in_game_artist": "ESAI, Pure 100%",
-    "performed_by": "ESAI, Pure 100%",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
   },
   {
     "station_num": "89.7",
@@ -666,10 +582,10 @@
     "performed_by": "Miles Davis",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:0AEfibmqwsr2WpGnsqow5Q",
     "spotify_track_name": "Black Satin/What If/Agharta Prelude Dub",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b2738ff827f09870914de0053dce",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "91.9",
@@ -680,10 +596,10 @@
     "performed_by": "Miles Davis",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:0AEfibmqwsr2WpGnsqow5Q",
     "spotify_track_name": "Black Satin/What If/Agharta Prelude Dub",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b2738ff827f09870914de0053dce",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "91.9",
@@ -764,10 +680,10 @@
     "performed_by": "Charles Mingus",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:3XvcgEkQfjasB5NnY8P4QA",
     "spotify_track_name": "Track A- Solo Dancer",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273eb5b1b39c6c992b79b27651e",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "91.9",
@@ -856,20 +772,6 @@
   {
     "station_num": "92.9",
     "station_name": "Night FM",
-    "track_title": "Brain-Damaged",
-    "artist": "Cyber Coorayber",
-    "in_game_artist": "Cyber Coorayber",
-    "performed_by": "Nikola Nikita Jeremic",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "92.9",
-    "station_name": "Night FM",
     "track_title": "Maniak",
     "artist": "Doctor Berserk",
     "in_game_artist": "Doctor Berserk",
@@ -884,20 +786,6 @@
   {
     "station_num": "92.9",
     "station_name": "Night FM",
-    "track_title": "Be Machine",
-    "artist": "Generating Dependencies",
-    "in_game_artist": "Generating Dependencies",
-    "performed_by": "Poly Face",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "92.9",
-    "station_name": "Night FM",
     "track_title": "Like a Miracle",
     "artist": "Lick Switch",
     "in_game_artist": "Lick Switch",
@@ -908,34 +796,6 @@
     "spotify_track_name": "Like A Miracle",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273159132bab235dc44372c3d71",
     "match_status": "manual_confirmed"
-  },
-  {
-    "station_num": "92.9",
-    "station_name": "Night FM",
-    "track_title": "Glitched Revelation",
-    "artist": "Reviscerator",
-    "in_game_artist": "Reviscerator",
-    "performed_by": "Procesor Plus",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "92.9",
-    "station_name": "Night FM",
-    "track_title": "Yellow Box",
-    "artist": "Reviscerator",
-    "in_game_artist": "Reviscerator",
-    "performed_by": "Procesor Plus",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
   },
   {
     "station_num": "92.9",
@@ -964,20 +824,6 @@
     "spotify_track_name": "Flying Heads",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44",
     "match_status": "manual_confirmed"
-  },
-  {
-    "station_num": "92.9",
-    "station_name": "Night FM",
-    "track_title": "Volcano The Sailor",
-    "artist": "Yards of the Moon",
-    "in_game_artist": "Yards of the Moon",
-    "performed_by": "Poloz",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
   },
   {
     "station_num": "95.2",
@@ -1052,34 +898,6 @@
   {
     "station_num": "96.1",
     "station_name": "Ritual FM",
-    "track_title": "Abandoned Land",
-    "artist": "Fist of Satan",
-    "in_game_artist": "Fist of Satan",
-    "performed_by": "Arthur Ruminski; Haldor Grunberg",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "Black Concrete",
-    "artist": "Fist of Satan",
-    "in_game_artist": "Fist of Satan",
-    "performed_by": "Arthur Ruminski; Haldor Grunberg",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
     "track_title": "I Won't Let You Go",
     "artist": "Shattered Void",
     "in_game_artist": "Shattered Void",
@@ -1094,20 +912,6 @@
   {
     "station_num": "96.1",
     "station_name": "Ritual FM",
-    "track_title": "March 30",
-    "artist": "Bacillus",
-    "in_game_artist": "Bacillus",
-    "performed_by": "Tomb Mold",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
     "track_title": "Adaptive Manipulator",
     "artist": "Bacillus",
     "in_game_artist": "Bacillus",
@@ -1118,146 +922,6 @@
     "spotify_track_name": "Adaptive Manipulator",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273199527ea98e780e65a9afc65",
     "match_status": "manual_confirmed"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "The Accursed",
-    "artist": "Dread Soul",
-    "in_game_artist": "Dread Soul",
-    "performed_by": "Antre",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": "The Accursed",
-    "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273eb659055ccc0670bb0defdd6",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "Finis",
-    "artist": "V3RM1N",
-    "in_game_artist": "V3RM1N",
-    "performed_by": "Piotr Maciejewski",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "Acid Breather",
-    "artist": "Forlorn Scourge",
-    "in_game_artist": "Forlorn Scourge",
-    "performed_by": "Mastiff",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "Witches of the Harz Mountains",
-    "artist": "Nuclear Aura",
-    "in_game_artist": "Nuclear Aura",
-    "performed_by": "Marcin Rybicki",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "The Loop",
-    "artist": "Weles",
-    "in_game_artist": "Weles",
-    "performed_by": "Deszcz",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "Scrum",
-    "artist": "Hysteria",
-    "in_game_artist": "Hysteria",
-    "performed_by": "Totenmesse",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "Fuelled By Poison",
-    "artist": "Inferno Crops",
-    "in_game_artist": "Inferno Crops",
-    "performed_by": "Antigama",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "Kevin",
-    "artist": "Inferno Crops",
-    "in_game_artist": "Inferno Crops",
-    "performed_by": "Antigama",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "Future Drugs",
-    "artist": "Hexxxer",
-    "in_game_artist": "Hexxxer",
-    "performed_by": "Mord'A'Stigmata",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "96.1",
-    "station_name": "Ritual FM",
-    "track_title": "Zurawie",
-    "artist": "Wydech",
-    "in_game_artist": "Wydech",
-    "performed_by": "Ugory",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": "Wicher",
-    "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273e7a107ab6294dbdaa03b5493",
-    "match_status": "manual_pending"
   },
   {
     "station_num": "98.7",
@@ -1290,34 +954,6 @@
   {
     "station_num": "98.7",
     "station_name": "Body Heat Radio",
-    "track_title": "Here's a Thought",
-    "artist": "IBDY",
-    "in_game_artist": "IBDY",
-    "performed_by": "RAT BOY",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "98.7",
-    "station_name": "Body Heat Radio",
-    "track_title": "Off the Leash",
-    "artist": "Us Cracks (ft. Kerry Eurodyne)",
-    "in_game_artist": "Us Cracks (ft. Kerry Eurodyne)",
-    "performed_by": "Namakopuri; Damian Ukeje",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "98.7",
-    "station_name": "Body Heat Radio",
     "track_title": "User Friendly (Cover)",
     "artist": "Us Cracks",
     "in_game_artist": "Us Cracks",
@@ -1342,20 +978,6 @@
     "spotify_track_name": null,
     "album_artwork_url": null,
     "match_status": "manual_confirmed"
-  },
-  {
-    "station_num": "98.7",
-    "station_name": "Body Heat Radio",
-    "track_title": "BM",
-    "artist": "Clockwork Venus",
-    "in_game_artist": "Clockwork Venus",
-    "performed_by": "SOPHIE; Shygirl",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
   },
   {
     "station_num": "98.7",
@@ -1496,188 +1118,6 @@
     "spotify_track_name": null,
     "album_artwork_url": null,
     "match_status": "manual_confirmed"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "Dreamy",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "DEEEEEEP",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "Black Labyrinth",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "Feed Your Soul",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "Liquid Disco",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "Sleepy Dust",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "Sparkling Frequency",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "Undeniably Changes",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "Void",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": "Void",
-    "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b2739ccc63bf501b3bd878558876",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "Woozee",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "GREEEEEENHOUSE",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "BESTPL",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "99.9",
-    "station_name": "Impulse",
-    "track_title": "ENERGEEHOUSE",
-    "artist": "Private Press",
-    "in_game_artist": "Private Press",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
   },
   {
     "station_num": "101.9",
@@ -1946,20 +1386,6 @@
     "match_status": "manual_confirmed"
   },
   {
-    "station_num": "101.9",
-    "station_name": "The Dirge",
-    "track_title": "Flacko Locko",
-    "artist": "Telo$",
-    "in_game_artist": "Telo$",
-    "performed_by": "A$AP Rocky",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": "Frankenstein (feat. A$AP Rocky)",
-    "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273bd6f8ac82dc5fe1028c14f7d",
-    "match_status": "manual_pending"
-  },
-  {
     "station_num": "103.5",
     "station_name": "Radio PEBKAC",
     "track_title": "La Canopée",
@@ -2018,30 +1444,16 @@
   {
     "station_num": "103.5",
     "station_name": "Radio PEBKAC",
-    "track_title": "Gridflow",
-    "artist": "Retinal Scam",
-    "in_game_artist": "Retinal Scam",
-    "performed_by": "Private Press",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": "Gridflow",
-    "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273159132bab235dc44372c3d71",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "103.5",
-    "station_name": "Radio PEBKAC",
     "track_title": "Darkretro",
     "artist": "Dukes of Azure",
     "in_game_artist": "Dukes of Azure",
     "performed_by": "Count",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:78Sk5AubjmgRNUElE0JHji",
     "spotify_track_name": "Darkretro",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "103.5",
@@ -2052,10 +1464,10 @@
     "performed_by": "Dos Era",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:2Fs5JeboWkSeiWOlZ2i0dk",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "103.5",
@@ -2066,38 +1478,10 @@
     "performed_by": "Połoz",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:3XKEnMrPNaxyZa9Q2LH5qy",
     "spotify_track_name": "On My Way to Hell",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273a91a5b301baac1f46e6f30eb",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "103.5",
-    "station_name": "Radio PEBKAC",
-    "track_title": "Vascular",
-    "artist": "Tar Hawk",
-    "in_game_artist": "Tar Hawk",
-    "performed_by": "Speed Dating (ft. Horrid Charme)",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "103.5",
-    "station_name": "Radio PEBKAC",
-    "track_title": "Subvert",
-    "artist": "Spoon Eater",
-    "in_game_artist": "Spoon Eater",
-    "performed_by": "Rhys Fulber",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": "Subvert",
-    "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "103.5",
@@ -2108,10 +1492,10 @@
     "performed_by": "Rhys Fulber",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:5M5cF6emx0UdLWzsZ4eW7I",
     "spotify_track_name": "Drained",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "103.5",
@@ -2122,38 +1506,10 @@
     "performed_by": "Kid Moxie; Ivan Iusco; Elena Charbila",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:2EmPtYUV7YMv6geMcyyxMF",
     "spotify_track_name": "Follow the White Crow",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "103.5",
-    "station_name": "Radio PEBKAC",
-    "track_title": "Fake Spook",
-    "artist": "IOshrine",
-    "in_game_artist": "IOshrine",
-    "performed_by": "Poly Face",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": "Fake Spook",
-    "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273159132bab235dc44372c3d71",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "103.5",
-    "station_name": "Radio PEBKAC",
-    "track_title": "Move Dat",
-    "artist": "[flesh]reactor",
-    "in_game_artist": "[flesh]reactor",
-    "performed_by": "Poly Face",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": "Move Dat",
-    "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273159132bab235dc44372c3d71",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "103.5",
@@ -2164,38 +1520,10 @@
     "performed_by": "Lutto Lento",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:1rYVUttq6Tdysuw6TDm8fC",
     "spotify_track_name": "CANNIBALISMUS",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273159132bab235dc44372c3d71",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "103.5",
-    "station_name": "Radio PEBKAC",
-    "track_title": "Bios",
-    "artist": "Error",
-    "in_game_artist": "Error",
-    "performed_by": "Louve",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": "Bios",
-    "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b2731ffd27bfbf4a8424d5b1b595",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "106.9",
-    "station_name": "30 PRINCIPALES",
-    "track_title": "Bamo",
-    "artist": "Kartel Sonoro",
-    "in_game_artist": "Kartel Sonoro",
-    "performed_by": "Konrad OldMoney (ft. Frawst)",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "106.9",
@@ -2206,38 +1534,10 @@
     "performed_by": "Konrad OldMoney (ft. Cerbeus; Johnny GR4VES)",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:4pXLIKcYNdrGsH5WXT4vrQ",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "106.9",
-    "station_name": "30 PRINCIPALES",
-    "track_title": "Serpant",
-    "artist": "7 Faces",
-    "in_game_artist": "7 Faces",
-    "performed_by": "Konrad OldMoney (ft. Cerbeus; Johnny GR4VES)",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "106.9",
-    "station_name": "30 PRINCIPALES",
-    "track_title": "Dinero",
-    "artist": "7 Faces",
-    "in_game_artist": "7 Faces",
-    "performed_by": "Konrad OldMoney (ft. Cerbeus)",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "106.9",
@@ -2248,10 +1548,10 @@
     "performed_by": "Konrad OldMoney (ft. Cerbeus)",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:7H6684raxC6EMpk0lfIPOf",
     "spotify_track_name": "Westcoast Til I Die (feat. Cerbeus)",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "106.9",
@@ -2262,10 +1562,10 @@
     "performed_by": "Konrad OldMoney (ft. Awrath)",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:6m6SDnozanVk9sjfWQVURn",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "106.9",
@@ -2276,10 +1576,10 @@
     "performed_by": "Konrad OldMoney (ft. 37 Heartbreak)",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:16W41WXeERVm8onloS9amy",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "106.9",
@@ -2290,24 +1590,10 @@
     "performed_by": "Konrad OldMoney (ft. 37 Heartbreak)",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:0bKHrxpyzhtxh0Qev2gYBe",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "106.9",
-    "station_name": "30 PRINCIPALES",
-    "track_title": "Muerto Trash",
-    "artist": "FKXU",
-    "in_game_artist": "FKXU",
-    "performed_by": "Konrad OldMoney (ft. Blackheart NC)",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "106.9",
@@ -2318,10 +1604,10 @@
     "performed_by": "Konrad OldMoney",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:1PtTB8oiuNOs1Qs1FQITTe",
     "spotify_track_name": "Barrio (feat. Frawst)",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "106.9",
@@ -2332,24 +1618,10 @@
     "performed_by": "David Rolas",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:3QL5I4hi7u1Fa2i1Kepnxp",
     "spotify_track_name": "Muévelo",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b2731dbbe25807996493bc175633",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "106.9",
-    "station_name": "30 PRINCIPALES",
-    "track_title": "Cumbia",
-    "artist": "Papito Gringo",
-    "in_game_artist": "Papito Gringo",
-    "performed_by": "David Rolas",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": "Baila La Cumbia",
-    "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273338b620f6095d8e6e1aab046",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2360,10 +1632,10 @@
     "performed_by": "Aligns",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:1GhEAuoPdSPiOgqiwLvdf0",
     "spotify_track_name": "Friday Night Fire Fight",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273199527ea98e780e65a9afc65",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2374,10 +1646,10 @@
     "performed_by": "Aligns",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:4L4dyvvaVn7SIapvJj5v6k",
     "spotify_track_name": "Trauma",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2388,10 +1660,10 @@
     "performed_by": "Refused",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:1AslaQYl1cMb1ItQKmtJer",
     "spotify_track_name": "Never Fade Away",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b27328973e4f8f72ac6a33de98a8",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2402,10 +1674,10 @@
     "performed_by": "Refused",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:5Ln8eNkYC9to99zsPEZbS2",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2416,10 +1688,10 @@
     "performed_by": "Refused",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:0UHxkkgI5GfV0XBRA1rqfe",
     "spotify_track_name": "Chippin' In",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273f8dd5fc34bba04b04a7f160c",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2430,10 +1702,10 @@
     "performed_by": "Refused",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:4QFsfUVgZesJCJ7jQXCXZ4",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2444,10 +1716,10 @@
     "performed_by": "RAT BOY",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:4mn5HdatHKN7iFGDes9G8i",
     "spotify_track_name": "Who's Ready for Tomorrow",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273a91a5b301baac1f46e6f30eb",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2458,10 +1730,10 @@
     "performed_by": "RAT BOY",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:5YhyG5A82Lk5K0V9bcatlo",
     "spotify_track_name": "Likewise",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b2731dbbe25807996493bc175633",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2472,10 +1744,10 @@
     "performed_by": "The Cold Stares",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:4yRn2lwakfUbmZgsxm7OU9",
     "spotify_track_name": "Suffer Me",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2486,24 +1758,10 @@
     "performed_by": "Konrad OldMoney (ft. Frawst)",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:2W59IZI82RCmli9IOu8RLo",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "107.3",
-    "station_name": "Morro Rock",
-    "track_title": "I Will Follow",
-    "artist": "Beached Tarantula",
-    "in_game_artist": "Beached Tarantula",
-    "performed_by": "Snot Abundance",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2514,38 +1772,10 @@
     "performed_by": "Pissed Jeans",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:20ufZoo7L9g7MAhO577ru0",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "107.3",
-    "station_name": "Morro Rock",
-    "track_title": "Summer of 2069",
-    "artist": "Blood and Ice",
-    "in_game_artist": "Blood and Ice",
-    "performed_by": "Metz",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "107.3",
-    "station_name": "Morro Rock",
-    "track_title": "Sustain/Decay",
-    "artist": "Cutthroat",
-    "in_game_artist": "Cutthroat",
-    "performed_by": "Piotr Maciejewski (Drivealone)",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2556,10 +1786,10 @@
     "performed_by": "Man Man",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:7hE24vyh8nj2dzLadtqOCh",
     "spotify_track_name": "So It Goes",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273b77628cd5ed8bd5a4f28521d",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.3",
@@ -2570,10 +1800,10 @@
     "performed_by": "The Unfit",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:5fujID18IoXnB5lIUEiKip",
     "spotify_track_name": "To the Fullest",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273247bf1341aea44ca29427f44",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2584,24 +1814,10 @@
     "performed_by": "Idris Elba",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:0ILYrTFOcadWuhW9MrEV7q",
     "spotify_track_name": "Choke Hold",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273c6613ed27d03191472fe7443",
-    "match_status": "manual_pending"
-  },
-  {
-    "station_num": "107.5",
-    "station_name": "Dark Star",
-    "track_title": "Rolla",
-    "artist": "Mr. Kipper",
-    "in_game_artist": "Mr. Kipper",
-    "performed_by": "Idris",
-    "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
-    "source_file": "song-refs.md",
-    "uri": "spotify:track:",
-    "spotify_track_name": null,
-    "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2612,10 +1828,10 @@
     "performed_by": "Backxwash",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:6N5xuelt8BvMyi26ayfe6z",
     "spotify_track_name": "Headrush",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273f721b061b10ebf1fe05b0279",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2626,10 +1842,10 @@
     "performed_by": "Hagop Tchaparian",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:3g9yYv8ZEsWkBh64qiKPKJ",
     "spotify_track_name": "Orbital Insertion",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273f721b061b10ebf1fe05b0279",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2640,10 +1856,10 @@
     "performed_by": "Lord Spikeheart; Chrisman",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:5cB5uTfIWbNza6CR1vfsUo",
     "spotify_track_name": "Cyko Arctic",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273f721b061b10ebf1fe05b0279",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2654,10 +1870,10 @@
     "performed_by": "27.Fuckdemons",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:6YWKvhv8AmcLaC6BViYyFU",
     "spotify_track_name": "Pierwszy raz naprawdę",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273f721b061b10ebf1fe05b0279",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2668,10 +1884,10 @@
     "performed_by": "julek ploski",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:27teyNlrFWIXi3O3BmQEAQ",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2682,10 +1898,10 @@
     "performed_by": "julek ploski",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:0kN5pzWoooVYXIiyzPLrMi",
     "spotify_track_name": "Bigger Crimes",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273f721b061b10ebf1fe05b0279",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2696,10 +1912,10 @@
     "performed_by": "Ecko Bazz, Silkback",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:5vFmZzO2CP8stjqyqGyTSb",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2710,10 +1926,10 @@
     "performed_by": "Kuba Wandacjpwocz",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:6TT1tvOodXSPdGVVxWtubk",
     "spotify_track_name": "fabrica KOSMOS",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273f721b061b10ebf1fe05b0279",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2724,10 +1940,10 @@
     "performed_by": "T'len Lai",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:54xpKS7urITZIGdeUkg72U",
     "spotify_track_name": null,
     "album_artwork_url": null,
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2738,10 +1954,10 @@
     "performed_by": "Krzysztof Freeze Ostrowski",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:2YAprZjujdbbezeuSBXnjL",
     "spotify_track_name": "dRk",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273f721b061b10ebf1fe05b0279",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   },
   {
     "station_num": "107.5",
@@ -2752,9 +1968,9 @@
     "performed_by": "Połoz",
     "source_url": "https://www.ign.com/wikis/cyberpunk-2077/All_Radio_Stations_and_Songs",
     "source_file": "song-refs.md",
-    "uri": "spotify:track:",
+    "uri": "spotify:track:7tqint12AqRI6k0Mz8Rbdj",
     "spotify_track_name": "Memories of Mzuzu",
     "album_artwork_url": "https://i.scdn.co/image/ab67616d0000b273f721b061b10ebf1fe05b0279",
-    "match_status": "manual_pending"
+    "match_status": "manual_confirmed"
   }
 ]
