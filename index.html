@@ -13,6 +13,8 @@
 		<meta name="apple-mobile-web-app-title" content="Radioport" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 		<title>Radioport · Night City</title>
+		<link rel="preconnect" href="https://open.spotify.com" crossorigin />
+		<link rel="dns-prefetch" href="https://sdk.scdn.co" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -916,32 +918,41 @@
 				mix-blend-mode: screen;
 				pointer-events: none;
 			}
-			@media (max-width: 600px) {
+			@media (max-width: 600px), (max-aspect-ratio: 5/8) {
 				:root {
 					--ui-scale: 1;
 				}
 				.hud {
 					top: 3dvh;
 					width: 92vw;
-					max-width: 460px;
-					font-size: 16px;
+					max-width: none;
+					font-size: 4.1vw;
 				}
 				.stations {
-					height: calc(100dvh - 460px);
+					height: calc(100dvh - 118vw);
 					min-height: 8em;
 					max-height: none;
 				}
 				.player-actions {
-					left: 16px;
-					bottom: calc(16px + env(safe-area-inset-bottom));
-					font-size: 24px;
+					left: 4.1vw;
+					bottom: calc(4.1vw + env(safe-area-inset-bottom));
+					font-size: 6.15vw;
 					gap: 0.5em;
+				}
+				/* Mobile browsers defer 1px clipped iframes; give the hidden player real, invisible size. */
+				.spotify-shell:not(.player-visible) {
+					width: 82vw;
+					height: 39vw;
+					clip-path: none;
+					opacity: 0.01;
+					pointer-events: none;
+					z-index: -1;
 				}
 				.spotify-shell.player-visible {
 					width: auto;
-					left: 12px;
-					right: 12px;
-					bottom: calc(12px + env(safe-area-inset-bottom));
+					left: 3vw;
+					right: 3vw;
+					bottom: calc(3vw + env(safe-area-inset-bottom));
 				}
 				kbd,
 				.space-key {
@@ -951,8 +962,19 @@
 					width: 2.4em;
 					height: 2.4em;
 				}
+				body .info-panel:not([hidden]) {
+					left: 3vw;
+					right: 3vw;
+					max-width: none;
+					bottom: calc(3vw + env(safe-area-inset-bottom));
+					padding: 3vw;
+					font-size: 3.6vw;
+				}
+				body .info-panel .player-heading {
+					font-size: 3.1vw;
+				}
 			}
-			@media (min-width: 601px) and (max-width: 1100px) {
+			@media (min-width: 601px) and (max-width: 1100px) and (min-aspect-ratio: 5/8) {
 				:root {
 					--ui-scale: 1;
 				}
@@ -976,10 +998,61 @@
 					height: 2.4em;
 				}
 			}
-			@media (min-width: 601px) and (max-width: 1100px) and (pointer: coarse) {
+			@media (min-width: 601px) and (max-width: 1100px) and (min-aspect-ratio: 5/8) and (pointer: coarse) {
 				kbd,
 				.space-key {
 					display: none !important;
+				}
+			}
+			.info-btn,
+			.info-panel {
+				display: none;
+			}
+			@media (max-width: 1100px) {
+				.info-btn {
+					display: grid;
+				}
+				.info-panel:not([hidden]) {
+					display: block;
+					position: fixed;
+					left: 12px;
+					right: 12px;
+					bottom: calc(150px + env(safe-area-inset-bottom));
+					max-width: 460px;
+					padding: 12px;
+					background: #10191f;
+					border: 1px solid var(--muted);
+					z-index: 7;
+					font-size: 14px;
+					line-height: 1.6;
+					text-shadow: none;
+				}
+				.info-panel .player-heading {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					gap: 12px;
+					font-size: 12px;
+				}
+				.info-panel p {
+					margin: 0.8em 0 0;
+					font-family: system-ui, sans-serif;
+					color: var(--cyan);
+				}
+				.info-panel ul {
+					margin: 0.6em 0 0;
+					padding-left: 1.2em;
+					font-family: system-ui, sans-serif;
+					color: var(--cyan);
+				}
+				.info-panel .dots {
+					font-size: 1.5em;
+					font-weight: 900;
+					line-height: 1;
+					-webkit-text-stroke: 1.5px currentColor;
+				}
+				.info-panel b {
+					color: var(--red);
 				}
 			}
 		</style>
@@ -1126,6 +1199,34 @@
 					<path d="M6 9q6-3 12 0M7 12q5-2.5 10 0M8 15q4-2 8 0" />
 				</svg>
 			</button>
+			<button
+				type="button"
+				class="player-help info-btn"
+				id="info-toggle"
+				aria-label="Install tips"
+				title="Install tips"
+				aria-controls="info-panel"
+				aria-expanded="false"
+			>
+				<svg viewBox="0 0 24 24" aria-hidden="true">
+					<circle cx="12" cy="12" r="9" />
+					<path d="M12 11v6M12 7.5v.01" />
+				</svg>
+			</button>
+		</div>
+		<div class="info-panel" id="info-panel" role="dialog" aria-label="Install tips" hidden>
+			<div class="player-heading">
+				<span>TURN ON DESKTOP SITE</span><button type="button" id="info-hide">CLOSE</button>
+			</div>
+			<p>
+				Spotify cuts songs to <b>30-second previews</b> on mobile sites. Switch your browser to
+				<b>Desktop Site</b> to hear full tracks. Do this <b>before</b> installing Radioport as an app.
+			</p>
+			<ul>
+				<li><b>Safari:</b> tap <b><i>aA</i></b> &rarr; <b>Request Desktop Website</b></li>
+				<li><b>Chrome:</b> tap <b class="dots">&#8942;</b> &rarr; <b>Desktop site</b></li>
+				<li>Then <b>Add to Home Screen</b> / <b>Install app</b></li>
+			</ul>
 		</div>
 		<div class="spotify-shell" id="player-panel">
 			<div class="player-heading">
@@ -1439,12 +1540,14 @@
 			function restoredTrackIndex() {
 				try {
 					const uri = localStorage.getItem(savedTrackKey());
+					// First visit: Body Heat Radio starts on track 8.
+					if (!uri && active.station_name.toUpperCase() === 'BODY HEAT RADIO' && queue.length > 7) return 7;
 					return Math.max(
 						0,
 						queue.findIndex(track => track.uri === uri),
 					);
 				} catch {
-					return 0;
+					return active.station_name.toUpperCase() === 'BODY HEAT RADIO' && queue.length > 7 ? 7 : 0;
 				}
 			}
 			function previousTrack() {
@@ -1531,6 +1634,8 @@
 				} catch {
 					// Storage may be disabled or contain invalid data; use the normal default.
 				}
+				const bodyHeat = stations.findIndex(station => station.station_name.toUpperCase() === 'BODY HEAT RADIO');
+				if (bodyHeat >= 0 && stations[bodyHeat].tracks.some(track => validUri(track.uri))) return bodyHeat;
 				const growl = stations.findIndex(station => station.station_name.toUpperCase() === 'GROWL FM');
 				if (growl >= 0 && stations[growl].tracks.some(track => validUri(track.uri))) return growl;
 				const playable = stations.findIndex(station => station.tracks.some(track => validUri(track.uri)));
@@ -1595,6 +1700,16 @@
 			});
 			$('player-toggle').addEventListener('click', () => {
 				togglePlayerControls(!$('player-panel').classList.contains('player-visible'));
+			});
+			$('info-toggle').addEventListener('click', () => {
+				const panel = $('info-panel');
+				panel.hidden = !panel.hidden;
+				$('info-toggle').setAttribute('aria-expanded', String(!panel.hidden));
+			});
+			$('info-hide').addEventListener('click', () => {
+				$('info-panel').hidden = true;
+				$('info-toggle').setAttribute('aria-expanded', 'false');
+				$('info-toggle').focus();
 			});
 			$('player-hide').addEventListener('click', () => {
 				togglePlayerControls(false);
@@ -1724,6 +1839,17 @@
 					'Spotify unavailable. Check your connection or content blocker.';
 			"
 		></script>
+		<script>
+			// A mobile user agent means Desktop Site is off: tell the user on every load.
+			(() => {
+				const mobileUa = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+				const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+				if (!mobileUa || standalone) return;
+				const panel = document.getElementById('info-panel');
+				panel.hidden = false;
+				document.getElementById('info-toggle').setAttribute('aria-expanded', 'true');
+			})();
+		</script>
 		<script>
 			if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
 				window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
